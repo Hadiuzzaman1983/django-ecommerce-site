@@ -58,3 +58,7 @@ $(document).ready(function() {
 }); 
 // jquery end
 
+// ৪ সেকেন্ড পর মেসেজটি ধীরে ধীরে অদৃশ্য হবে
+setTimeout(function(){
+     $('#message').fadeOut('slow');
+}, 4000);
