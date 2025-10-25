@@ -147,3 +147,10 @@ from django.contrib.messages import constants as messages
 MESSAGE_TAGS = {
     messages.ERROR: 'danger',  # Bootstrap uses 'danger' instead of 'error'
 }
+
+EMAIL_BACKEND = "django.core.mail.backends.smtp.EmailBackend"
+EMAIL_USE_TLS = True
+EMAIL_HOST = "smtp.gmail.com"
+EMAIL_HOST_USER = "hadi.mmpi@gmail.com"
+EMAIL_HOST_PASSWORD = "tkdzkyiwuhxpzpek"
+EMAIL_PORT = 587
